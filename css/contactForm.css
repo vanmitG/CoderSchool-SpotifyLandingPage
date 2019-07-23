@@ -1,0 +1,36 @@
+section {
+  height: 15em;
+  background: linear-gradient(#fae62d -60%, #f037a5 140%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputContainer {
+  width: 50%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  display: flex;
+  /* justify-content: center;
+  align-items: center; */
+  flex-direction: column;
+}
+.inputSmall {
+  background-color: yellow;
+  width: 2em;
+  height: 4em;
+  /* flex: 1; */
+}
+.inputMedium {
+  background-color: green;
+  width: 2em;
+  height: 4em;
+  /* flex: 1; */
+}
+.inputLarge {
+  background-color: blue;
+  width: 2em;
+  height: 4em;
+  /* flex: 2; */
+}

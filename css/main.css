@@ -1,0 +1,158 @@
+/* font */
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap");
+/* Declare font:
+font-family: "Open Sans", sans-serif; 
+font-family: "Montserrat", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+}
+body {
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+@import url(/css/contactForm.css);
+
+nav {
+  height: 15vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  position: fixed;
+}
+header {
+  height: 45em;
+  background: linear-gradient(#f037a5 -60%, #fae62d 140%);
+}
+footer {
+  height: 15em;
+  background-color: black;
+}
+.container {
+  height: inherit;
+  width: 88%;
+  margin: 0 auto;
+  padding: 0 1em;
+  display: flex;
+  flex-wrap: wrap;
+  /* background-color: brown; */
+}
+.spotify-logo {
+  width: 8em;
+  height: 2.5em;
+  margin: 1em;
+}
+nav ul {
+  width: 30em;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav li {
+  font-weight: bold;
+}
+nav a:hover {
+  color: #1db954;
+}
+.hero-img {
+  height: inherit;
+  margin: 0 auto;
+  background-image: url("https://www.scdn.co/i/home/hero-burst.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#title {
+  width: inherit;
+  /* color: white; */
+  text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+  margin-bottom: 1em;
+}
+header .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.btn-spotify {
+  width: 20em;
+  margin: 0 auto;
+  color: white;
+  background-color: #1db954;
+  padding: 18px 42px 18px;
+  border: 0px;
+  border-radius: 500px;
+  margin-top: 4em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1;
+  letter-spacing: 2px;
+  transition-duration: 0.3s;
+}
+.btn-spotify:hover {
+  cursor: pointer;
+  background-color: #1ed760;
+}
+.logo {
+  flex: 1;
+  /* background-color: #d71ebe; */
+}
+.links {
+  flex: 1;
+  /* background-color: #fae62d; */
+}
+.icons {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+  /* background-color: aqua; */
+}
+footer .container {
+  padding-top: 2em;
+  align-items: flex-start;
+}
+footer ul {
+  /* width: 30em; */
+  color: #919496;
+  list-style-type: none;
+  /* display: flex;
+  flex-direction: column; */
+  /* justify-content: space-between; */
+  align-items: center;
+  margin-left: auto;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+}
+footer li {
+  font-size: smaller;
+  font-weight: bold;
+}
+footer a:hover {
+  color: #1db954;
+}
+footer i {
+  color: white;
+  margin-left: 0.5em;
+}
+footer i:hover {
+  color: #1db954;
+}
